@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <link href="images/logo.png" rel="shortcup icon">
+</head>
+<body>
+    <section>
+        <div class="circulo"></div>
+        <header>
+            <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <main class="conteudo">
+            <div class="caixa-texto">
+                <h2>
+                    Que tal o nosso delicioso <span>Whopper</span>
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, recusandae quaerat, assumenda cum cupiditate soluta totam corrupti pariatur voluptas nulla repellat maiores minus facilis dolorum quasi esse sed, iste amet.
+                </p>
+                <a href="#">Leia mais</a>
+            </div>
+            <div class="caixa-imagem">
+                <img src="images/whopper.png" alt="lanche whopper" class="burger-king">
+            </div>
+
+            <ul class="miniaturas">
+                <li><img src="images/balde-sorvete.png" alt="balde de sorvete de oreo" onclick="TrocarImagem('images/balde-sorvete.png'); MudarCirculo('#C49337'); MudarEscrito('Balde de sorvete');"></li>
+
+                <li><img src="images/crispy-chicken.png" alt="Lanche Crispy Chicken" onclick="TrocarImagem('images/crispy-chicken.png'); MudarCirculo('#F8BA46'); MudarEscrito('Crispy Chicken');"></li>
+
+                <li><img src="images/whopper.png" alt="whopper" onclick="TrocarImagem('images/whopper.png'); MudarCirculo('#db883f'); MudarEscrito('Whopper');"></li>
+            </ul>
+
+            <ul class="redes-sociais">
+                <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+            </ul>
+
+        </main>
+    </section>
+    <script src="js/funcoes.js"></script>
+</body>
+</html>
